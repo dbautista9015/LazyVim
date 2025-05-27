@@ -15,3 +15,6 @@ keymap.set("n", "N", "Nzzv")
 
 -- Remap for yanking a word and keeping it available to paste
 keymap.set("x", "<leader>p", '"_dp')
+
+-- Remap for going into Netrw Explorer
+keymap.set("n", "<leader>pv", vim.cmd.Ex)
