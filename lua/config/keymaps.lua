@@ -10,8 +10,8 @@ keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Remap for searching a term and once I go to the term, it centers screen
-keymap.set("n", "n", "nzzv")
-keymap.set("n", "N", "Nzzv")
+keymap.set("n", "n", "nzzzv")
+keymap.set("n", "N", "Nzzzv")
 
 -- Remap for yanking a word and keeping it available to paste
 keymap.set("x", "<leader>p", '"_dp')
