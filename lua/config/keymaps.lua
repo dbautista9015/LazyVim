@@ -24,15 +24,3 @@ keymap.set("n", "<leader><leader>x", ":source%<CR>")
 keymap.set("n", "<leader>x", ":.lua<CR>")
 -- Remap for sourcing line in visual mode
 keymap.set("v", "<leader>x", ":lua<CR>")
-
--- Disable keymaps for moving windows
-keymap.del("n", "<C-H>")
-keymap.del("n", "<C-J>")
-keymap.del("n", "<C-K>")
-keymap.del("n", "<C-L>")
-
--- Disable keymaps for saving a file
-keymap.del("n", "<C-S>")
-keymap.del("x", "<C-S>")
-keymap.del("s", "<C-S>")
-keymap.del("i", "<C-S>")
